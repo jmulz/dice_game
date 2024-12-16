@@ -18,6 +18,14 @@ Rules
 If all three dice have the same value ("tuple out"), the turn ends with a score of 0.
 If two dice match, those dice are automatically fixed, and only the third dice can be re-rolled.
 The final score for the turn is the sum of all dice values unless tupled out.
+Computer Mode
+Players can choose to let the computer play the game by itself.
+The computer rolls until its expected score is negative or it reaches a limit of 10 rolls per turn.
+After playing, the computer’s scores are recorded for analysis.
+The scores are displayed as a histogram, and basic statistics (mean, min, max, etc.) are provided.
+Data Analysis & Visualization
+The game provides data analysis after the computer plays, including the distribution of scores.
+Players can visualize the results using a histogram plot, which shows the frequency of different scores.
 Requirements
 Python 3.x
 random module (standard library)
